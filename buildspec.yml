@@ -13,7 +13,7 @@ phases:
   pre_build:
     commands:
       - echo Generating aws-exports.js...
-      - npx amplify pull --yes --appId d3ftmyhco2oouj --envName prod      
+      - npx amplify pull --yes --appId d3ftmyhco2oouj --envName dev      
   build:
     commands:
       - echo Building the React app...
