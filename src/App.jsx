@@ -93,10 +93,9 @@ function App() {
       <Authenticator>
         {({ signOut, user }) => (
           <main className="p-4">
-            <h1 className="text-2xl font-bold mb-4">
+            <h1 className="text-2xl font-bold mb-4 flex justify-center mx-auto">
               Welcome, {userAttributes?.name || user.username}!
             </h1>
-            <h1>******</h1>
             <div className="max-w-xl mx-auto mt-10 space-y-6">
               <h1 className="text-2xl font-bold text-center">💬 Comments</h1>
               <CommentForm onSubmit={handlePost} />
