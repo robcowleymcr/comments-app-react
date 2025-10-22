@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-commentsappreact-dev-35d91-authRole",
+      "UnauthRoleArn": "arn:aws:iam::581983649811:role/amplify-commentsappreact-dev-35d91-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::581983649811:role/amplify-commentsappreact-dev-35d91-authRole",
+      "Region": "eu-west-2",
+      "DeploymentBucketName": "amplify-commentsappreact-dev-35d91-deployment",
+      "UnauthRoleName": "amplify-commentsappreact-dev-35d91-unauthRole",
+      "StackName": "amplify-commentsappreact-dev-35d91",
+      "StackId": "arn:aws:cloudformation:eu-west-2:581983649811:stack/amplify-commentsappreact-dev-35d91/57c37d30-adc4-11f0-bc10-02195cbaa405",
+      "AmplifyAppId": "d3ftmyhco2oouj"
+    },
+    "categories": {
+      "auth": {
+        "commentsappreact499c37f4": {}
+      }
+    }
+  }
+}
