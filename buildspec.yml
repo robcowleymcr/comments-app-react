@@ -7,6 +7,10 @@ phases:
     commands:
       - echo Installing dependencies...
       - npm ci
+  pre_build:
+    commands:
+      - echo Generating aws-exports.js...
+      - npx amplify pull --yes --appId d3ftmyhco2oouj --envName prod      
   build:
     commands:
       - echo Building the React app...
